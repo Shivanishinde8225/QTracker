@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main-data {
+    /* background-color: rgb(223, 250, 250); */
+    position: relative;
+    top: 56px;
+    z-index: -1;
+    height: 600px;
+    width: 100%;
+
+}
+
+.data-video {
+    /* background-color: aqua; */
+    position: absolute;
+    /* top: 0px; */
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.data-heading {
+    padding-top: 40px;
+}
+
+.data-content {
+    /* box-shadow: 0px 0px 10px whitesmoke; */
+    padding: 20px 20px;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 4px;
+}
