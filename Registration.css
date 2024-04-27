@@ -1,0 +1,49 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}       
+.container-main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: block;
+    background-size: cover;
+    background-position: 100% 100%;
+    background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGlsYWxkaHhsYW94YXlnaGtxcDd3aW55emZidmlia3ByaXk1ODJtZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xThtajG0JaEWYlIg3m/giphy.gif");
+    /* background-image: url("wp5112924.webp"); */
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+    color: aliceblue;
+}
+a{
+    color: black;
+}
+.login-form {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    margin-top: -40px;
+    justify-content: center;
+    /* border: 2px solid black; */
+    align-items: center;
+    /* background-color: #a4a7a70f; */
+}
+.form {
+    /* color: aliceblue; */
+    padding: 30px 30px;
+    margin-top: 20px;
+    height: 450px;
+    width: 500px;
+    /* background-color: #c4c6e136; */
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+    
+}
+.form-control{
+    background-color: transparent;
+    box-shadow: 0px 0px 10px white;
+}
